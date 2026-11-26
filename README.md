@@ -1,6 +1,8 @@
-# dsh-notes-tab
+# dsh-notes
 
-> 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）的右侧栏「笔记」标签页：**所见即所得的本地 Markdown 笔记本**。不打开 Obsidian、不连云、不需要额外服务。
+> DeepSeek Harness（`dsh`）右侧栏的「笔记」标签页：**所见即所得的本地 Markdown 笔记本**。不打开 Obsidian、不连云、不需要额外服务。
+>
+> 仓库名 `dsh-notes`，npm 包名 `dsh-notes-tab`（`dsh-notes` 在 npm 上已被占用）。
 
 在一个标签页里直接写、直接看效果：标题就是大字号，列表就是圆点，图片直接显示。数据始终是你磁盘上的 `.md` 文件。
 
@@ -30,7 +32,7 @@ dsh plugin --profile web add github:Ethan-lamlam/dsh-notes
 ### 从本地目录安装（开发）
 
 ```sh
-dsh plugin --profile web add /path/to/dsh-notes-tab
+dsh plugin --profile web add /path/to/dsh-notes
 ```
 
 ### 在 GUI 里安装

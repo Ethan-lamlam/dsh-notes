@@ -1,6 +1,8 @@
-# dsh-notes-tab
+# dsh-notes
 
-A **WYSIWYG local Markdown notebook** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`), living in the right sidebar as a native tab.
+> A **WYSIWYG local Markdown notebook** for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`), living in the right sidebar as a native tab.
+>
+> Repo name `dsh-notes`; npm package name `dsh-notes-tab` (the `dsh-notes` name on npm belongs to another project).
 
 Type directly in the rendered view — headings look like headings, lists look like lists, pasted images show inline. Everything stays as plain `.md` files on your disk.
 
