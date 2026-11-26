@@ -18,9 +18,12 @@ Type directly in the rendered view — headings look like headings, lists look l
 Requires DeepSeek Harness **0.2.1+**, Node `^22.19 || >=24`.
 
 ```sh
-dsh plugin --profile web add github:Ethan-lamlam/dsh-notes-tab
+dsh plugin --profile web add github:Ethan-lamlam/dsh-notes
 # use --profile desktop on the Desktop app
 ```
+
+> Repo is `dsh-notes`; the npm package name is `dsh-notes-tab` (the `dsh-notes`
+> name on npm belongs to another project).
 
 Restart DSH after installing (the bundle layer is composed at startup).
 

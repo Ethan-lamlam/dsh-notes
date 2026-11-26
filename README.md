@@ -21,9 +21,11 @@
 ### 从 GitHub 安装
 
 ```sh
-dsh plugin --profile web add github:Ethan-lamlam/dsh-notes-tab
+dsh plugin --profile web add github:Ethan-lamlam/dsh-notes
 # Desktop 用户把 web 换成 desktop
 ```
+
+> 仓库名是 `dsh-notes`，包名是 `dsh-notes-tab`（npm 上 `dsh-notes` 已被占用，避免重名）。
 
 ### 从本地目录安装（开发）
 
@@ -91,8 +93,8 @@ macOS 上把 `Ctrl` 换成 `Cmd`。
 ## 开发
 
 ```sh
-git clone https://github.com/Ethan-lamlam/dsh-notes-tab
-cd dsh-notes-tab
+git clone https://github.com/Ethan-lamlam/dsh-notes
+cd dsh-notes
 # 宿主端零依赖；客户端是手写 React（window.__ModuleLoader__）
 dsh plugin --profile web add "$(pwd)"
 ```

@@ -38,6 +38,10 @@
   "author": "Ethan-lamlam",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ethan-lamlam/dsh-notes-tab.git"
+    "url": "git+https://github.com/Ethan-lamlam/dsh-notes.git"
+  },
+  "homepage": "https://github.com/Ethan-lamlam/dsh-notes#readme",
+  "bugs": {
+    "url": "https://github.com/Ethan-lamlam/dsh-notes/issues"
   }
 }
