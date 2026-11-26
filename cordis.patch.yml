@@ -1,0 +1,4 @@
+# dsh-notes-tab bundle layer: inserts the plugin row into the profile roster.
+- insert:
+    - id: notes-tab
+      name: dsh-notes-tab

@@ -1,0 +1,43 @@
+{
+  "name": "dsh-notes-tab",
+  "version": "0.1.0",
+  "description": "Notes tab for DeepSeek Harness: a WYSIWYG local Markdown notebook in the right sidebar — block shortcuts, inline image paste, no cloud.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "notes",
+    "markdown",
+    "wysiwyg",
+    "sidebar"
+  ],
+  "license": "MIT",
+  "author": "Ethan-lamlam",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan-lamlam/dsh-notes-tab.git"
+  }
+}
