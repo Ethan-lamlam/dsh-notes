@@ -36,6 +36,18 @@
   ],
   "license": "MIT",
   "author": "Ethan-lamlam",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ethan-lamlam/dsh-notes.git"
